@@ -8,7 +8,7 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
   return (
     <div className="bg-[#F4F9FB] relative z-999">
-      <div className="mx-[20px] md:max-w-[1160px] md:mx-auto flex justify-between items-center py-[30px] ">
+      <div className="mx-[25px] md:max-w-[1160px] md:mx-auto flex justify-between items-center py-[20px] ">
         <a href="#">
           <img src={Logo} alt="logo" />
         </a>
