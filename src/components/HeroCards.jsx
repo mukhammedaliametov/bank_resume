@@ -9,7 +9,7 @@ const HeroCards = () => {
   return (
     <div className="mx-[20px] md:max-w-[1160px] md:mx-auto my-[50px] md:my-[70px]">
       <div className="overflow-scroll overflow-x-auto md:overflow-hidden gap-[10px] md:gap-[20px] flex items-center justify-between">
-        <div className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
+        <div data-aos="fade-up" className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
           <img
             src={Icon1}
             alt="hero_icon_1"
@@ -20,7 +20,7 @@ const HeroCards = () => {
             предложений о работе
           </p>
         </div>
-        <div className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
+        <div data-aos="fade-up" className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
           <img
             src={Icon2}
             alt="hero_icon_2"
@@ -31,7 +31,7 @@ const HeroCards = () => {
             размещенных резюме
           </p>
         </div>
-        <div className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
+        <div data-aos="fade-up" className="bg-[#F4F9FB] text-center min-w-[260px] h-[317px] md:w-[360px] md:h-[400px] rounded-[16px] shrink-0">
           <img
             src={Icon3}
             alt="hero_icon_3"
@@ -44,7 +44,7 @@ const HeroCards = () => {
         </div>
       </div>
       <div className="flex justify-between ] flex-col md:flex-row relative items-center gap-[30px] mt-[50px]">
-        <div className="flex items-center gap-[30px] w-[100%] mx-[20px] md:w-[560px] h-[250px] md:h-[280px] bg-[#F4F9FB] px-[25px] md:px-[40px] py-0 md:py-[20px] rounded-[16px]">
+        <div data-aos="fade-up" className="flex items-center gap-[30px] w-[100%] mx-[20px] md:w-[560px] h-[250px] md:h-[280px] bg-[#F4F9FB] px-[25px] md:px-[40px] py-0 md:py-[20px] rounded-[16px]">
           <div className="w-[308px]">
             <h4 className="text-[18px] font-semibold pt-[20px] md:pt-[0px]">
               Для работодателей
@@ -66,10 +66,10 @@ const HeroCards = () => {
             />
           </div>
         </div>
-        <button className="block md:hidden w-[100%] mx-auto mt-[-20px] bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] mr-[20px] rounded-[4px] font-light cursor-pointer">
+        <button data-aos="fade-up" className="block md:hidden w-[100%] mx-auto mt-[-20px] bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] mr-[20px] rounded-[4px] font-light cursor-pointer">
           Вход
         </button>
-        <div className="flex items-center gap-[30px] w-[100%] mx-[20px] md:w-[560px] h-[170px] md:h-[280px] bg-[#F4F9FB] px-[25px] md:px-[40px] py-0 md:py-[20px] rounded-[16px] ">
+        <div data-aos="fade-up" className="flex items-center gap-[30px] w-[100%] mx-[20px] md:w-[560px] h-[170px] md:h-[280px] bg-[#F4F9FB] px-[25px] md:px-[40px] py-0 md:py-[20px] rounded-[16px] ">
           <div className="w-[308px]">
             <h4 className="text-[18px] font-semibold">Для соискателей</h4>
             <p className="text-[15px] text-[#292929] my-3">
@@ -93,10 +93,10 @@ const HeroCards = () => {
             />
           </div>
         </div>
-        <button className="block md:hidden w-[100%] mx-auto mt-[-20px] bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] mr-[20px] rounded-[4px] font-light cursor-pointer">
+        <button data-aos="fade-up" className="block md:hidden w-[100%] mx-auto mt-[-20px] bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] mr-[20px] rounded-[4px] font-light cursor-pointer">
           Вход
         </button>
-        <button className="block md:hidden w-[100%] mx-auto mt-[-20px] border-1 text-[#007DB6] text-[15px] py-[12px] px-[30px] rounded-[4px] font-light cursor-pointer">
+        <button data-aos="fade-up" className="block md:hidden w-[100%] mx-auto mt-[-20px] border-1 text-[#007DB6] text-[15px] py-[12px] px-[30px] rounded-[4px] font-light cursor-pointer">
           Зарегистрироваться
         </button>
       </div>

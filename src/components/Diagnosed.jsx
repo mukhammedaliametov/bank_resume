@@ -9,7 +9,7 @@ const Diagnosed = () => {
     <div className="mx-[25px] md:max-w-[1160px] md:mx-auto my-[60px]">
       <div className="flex justify-between">
         <div className="flex flex-col md:flex-row w-[100%] md:w-auto">
-          <h2 className="text-[#292929] text-[32px] font-black uppercase text-center">
+          <h2 className="text-[#292929] text-[32px] font-black uppercase text-center md:text-left">
             пройдите <br /> диагностику
           </h2>
           <div className="w-[100%] md:w-[332px] ml-0 md:ml-[120px]">

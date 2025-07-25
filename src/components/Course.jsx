@@ -3,7 +3,7 @@ import React from "react";
 const Course = () => {
   return (
     <div className="mx-0 md:max-w-[1160px] md:mx-auto">
-      <div className="bg-[#F4F9FB] p-0 md:p-[30px] py-[30px] md:py-[0px] flex-col-reverse md:flex-row flex justify-between items-center rounded-[16px]">
+      <div data-aos="fade-up" className="bg-[#F4F9FB] p-0 md:p-[30px] py-[30px] md:py-[0px] flex-col-reverse md:flex-row flex justify-between items-center rounded-[16px]">
         <div className="flex flex-col md:mx-[10px] justify-between gap-[20px] w-[100%] md:w-auto p-[20px] pt-0 md:pt-[20px]">
           <div className="bg-[#FF879F] flex flex-col justify-between py-[20px] px-[35px] md:px-[50px] mt-[30px] md:mt-0 w-[100%] md:w-[526px] h-[150px] md:h-[184px] rounded-[16px]">
             <div>
