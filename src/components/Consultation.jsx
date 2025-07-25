@@ -3,7 +3,7 @@ import Icon from "../assets/consultation_icon.png";
 
 const Consultation = () => {
   return (
-    <div className="mx-[20px] md:max-w-[1160px] md:mx-auto">
+    <div className="hidden md:block mx-[20px] md:max-w-[1160px] md:mx-auto">
       <div className="flex justify-between items-center bg-[#F4F9FB] mb-[20px] rounded-[16px]">
         <div className="mx-[50px] py-[60px] text-[#292929]">
           <h2 className="text-[32px] uppercase font-black">карьерная консультация</h2>

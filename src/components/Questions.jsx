@@ -4,7 +4,7 @@ import MinusCircle from "../assets/minus-circle.png";
 
 const Questions = () => {
   return (
-    <div className="mx-[20px] md:max-w-[1160px] md:mx-auto my-[80px] flex justify-between gap-[60px] text-[#292929]">
+    <div className="hidden mx-[20px] md:max-w-[1160px] md:mx-auto my-[80px] md:flex justify-between gap-[60px] text-[#292929]">
       <div className="w-[1160px]">
         <h2 className="text-[32px] font-black uppercase">Остались вопросы?</h2>
         <p className="text-[15px] my-[15px]">

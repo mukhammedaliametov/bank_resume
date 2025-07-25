@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Logo from "../assets/logo.png";
 import Menu from "../assets/menu.png";
 import Close from "../assets/close.png";
+import Icon1 from '../assets/hero_icon1.png';
 
 const Header = () => {
   const [nav, setNav] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
           <img src={nav ? Close : Menu} alt="menu" />
         </div>
         <div className={nav ? "block md:hidden absolute bg-[#00000073] w-full top-[82px] left-0 h-[520px]" : "block md:hidden absolute bg-[#00000073] w-full top-[-582px] left-0 h-[550px]"}>
-            <div className="flex flex-col gap-[20px] bg-[#F4F9FB] ml-[90px] py-[30px] px-[30px] rounded-bl-xl">
+            <div className="flex flex-col gap-[20px] bg-[#F4F9FB] ml-[60px] py-[30px] px-[30px] rounded-bl-xl">
             <button className="bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] rounded-[4px] font-light cursor-pointer">Вход для соискателя</button>
             <button className="bg-[#007DB6] text-[#fff] text-[15px] py-[13px] px-[30px] rounded-[4px] font-light cursor-pointer">Вход для директора</button>
             <button className="border-1 text-[#007DB6] text-[15px] py-[11px] px-[30px] rounded-[4px] font-light cursor-pointer">Регистрация</button>
